@@ -109,7 +109,7 @@ void more_see(FILE *fp)
     }
     if(number != 0)
     {
-        while((fgets(eat, MAXSIZE, fp)) != '\0')
+        while((fgets(eat, MAXSIZE, fp)) != 0)
         {
             if(fputs(eat, stdout))
             {
